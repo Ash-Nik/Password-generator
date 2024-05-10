@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Password/ generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cagliostro&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-dark border-bottom border-body " data-bs-theme="dark >
+      <div class="container-fluid">
+        <p class="navbar-brand"><=>PassGen+tor</p>
+
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"> </label>
+        </div>
+      </div>
+    </nav>
+
+    <div class="down-nav mb-3">
+      A password generator is a software tool that creates random or customized
+      passwords for users.
+    </div>
+
+    <div
+      class="container my-3 p-3 mb-5 object-fit-scale border rounded"
+      id="box1"
+    >
+
+
+<div class="container" id="upper-box">
+<div class="container">
+  password vulnerability ******
+</div>
+
+</div>
+
+      <div class="input-group mb-3" id="fm">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Hey I am your Password"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+          id="display1"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="copy-button"
+        >
+          Copy
+        </button>
+        <button
+          class="btn btn btn-outline-success"
+          type="button"
+          id="button-addon2"
+        >
+          Generate
+        </button>
+      </div>
+
+      <div id="flex-d">
+        <div class="container text-decoration-underline">
+          <p class="top">Enter difficulty lavel of Password</p>
+
+          <div class="form-check my-3">
+            <input
+              class="form-check-input rdio"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Easy Password
+            </label>
+          </div>
+          <div class="form-check my-3">
+            <input
+              class="form-check-input rdio"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Medium password
+            </label>
+          </div>
+          <div class="form-check my-3">
+            <input
+              class="form-check-input rdio"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Difficult password
+            </label>
+          </div>
+        </div>
+
+        <div class="container" id="down-cont">
+          <label for="customRange2" class="form-label top text-decoration-underline"
+            >Length of password</label
+          >
+          <input
+            type="range"
+            class="form-range"
+            min="6"
+            max="45"
+            id="customRange2"
+          />
+
+          <label for="inputPassword5 " class="form-label top text-decoration-underline"
+            >Length chosen</label
+          >
+          <input
+            type="number"
+            id="inputPassword5"
+            class="form-control"
+            aria-describedby="passwordHelpBlock"
+            placeholder="len :6(min) 45(max)"
+          />
+          <div id="passwordHelpBlock" class="form-text">.</div>
+        </div>
+      </div>
+    </div>
+  
+  
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="code.js"></script>
+  </body>
+</html>
